@@ -20,6 +20,7 @@ dependencies {
     runtimeOnly("org.postgresql:postgresql:42.6.0")
     implementation group: 'com.formdev', name: 'flatlaf', version: '3.5.2'
     implementation("org.springframework:spring-jdbc:5.2.4.RELEASE")
+    testImplementation 'junit:junit:4.13.2'
 }
 
 jar {

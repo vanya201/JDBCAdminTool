@@ -9,7 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1530e71-186a-401b-b94f-92a53946fdb4" name="Changes" comment="" />
+    <list default="true" id="a1530e71-186a-401b-b94f-92a53946fdb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/657ca1fd-d5b6-495a-9dce-f8170fb01caa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/657ca1fd-d5b6-495a-9dce-f8170fb01caa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCApl/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCApl/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/model/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/model/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/MainAplcation.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/MainAplcation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/ProductPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/ProductPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/SellerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/view/SellerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,9 +55,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -56,33 +76,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.JDBC [:DatabaseExplorer.main()].executor": "Run",
-    "Gradle.JDBC [dependencies].executor": "Run",
-    "Gradle.JDBC.executor": "Run",
-    "Gradle.JDBC:JDBCApl [:JDBCApl:Main.main()].executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java Project/ModuleDepndenciesProject/out/artifacts/Logic_jar2/Logic.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Java Project/JDBC/JDBCApl/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.JDBC [:DatabaseExplorer.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JDBC [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JDBC.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JDBC:JDBCApl [:JDBCApl:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JDBC:JDBCApl [:JDBCApl:Task.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tester.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ббб | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaStudy/Java Project/JDBC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java Project/JDBC/JDBCApl/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ua.cn.stu.view" />
@@ -90,10 +115,17 @@
       <recent name="ua.cn.stu.model" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="DatabaseExplorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.cn.stu.main.DatabaseExplorer" />
-      <module name="JDBC.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.cn.stu.main.Main" />
+      <module name="JDBC.JDBCApl.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ua.cn.stu.main.*" />
@@ -104,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.cn.stu.main.Main" />
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.cn.stu.task.Task" />
       <module name="JDBC.JDBCApl.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.cn.stu.main.*" />
+          <option name="PATTERN" value="ua.cn.stu.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +171,40 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tester" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":JDBCApl:test" />
+            <option value="--tests" />
+            <option value="&quot;Tester&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ббб | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/JDBCApl/src/main/java/ua/cn/stu/model/ббб.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.ббб | GET request to example server" />
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Gradle.Tester" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.JDBC [dependencies]" />
-        <item itemvalue="Application.DatabaseExplorer" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +227,20 @@
       <workItem from="1730586235412" duration="6348000" />
       <workItem from="1730592747550" duration="4328000" />
       <workItem from="1730643014762" duration="6828000" />
-      <workItem from="1730653513196" duration="18718000" />
+      <workItem from="1730653513196" duration="19577000" />
+      <workItem from="1730748973256" duration="2685000" />
+      <workItem from="1730768748280" duration="3961000" />
+      <workItem from="1730961055302" duration="169000" />
+      <workItem from="1730961252360" duration="355000" />
+      <workItem from="1730961629291" duration="4264000" />
+      <workItem from="1731264927750" duration="715000" />
+      <workItem from="1731304674360" duration="6206000" />
+      <workItem from="1731374885881" duration="69000" />
+      <workItem from="1731376622668" duration="3421000" />
+      <workItem from="1731399546401" duration="3752000" />
+      <workItem from="1731416477418" duration="451000" />
+      <workItem from="1731418364923" duration="23000" />
+      <workItem from="1731425814729" duration="410000" />
     </task>
     <servers />
   </component>

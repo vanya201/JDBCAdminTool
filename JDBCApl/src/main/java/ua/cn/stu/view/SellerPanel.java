@@ -74,9 +74,7 @@ public class SellerPanel extends JPanel {
 
     private JButton getjButton(JTextField nameField, JTextField emailField) {
         JButton addButton = new JButton("Add Seller");
-        addButton.addActionListener(e -> {
-            sellerControllerController.addSeller(nameField.getText(), emailField.getText());
-        });
+        addButton.addActionListener(e -> sellerControllerController.addSeller(nameField.getText(), emailField.getText()));
         return addButton;
     }
 }

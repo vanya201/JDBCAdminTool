@@ -68,7 +68,6 @@ public class ProductPanel extends JPanel {
         gbc.gridx = 1;
         formPanel.add(idField, gbc);
 
-        // Кнопка добавления
         gbc.gridx = 0;
         gbc.gridy = 5;
         gbc.gridwidth = 2;

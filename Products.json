@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Laptop",
+    "description": "15-inch, 16GB RAM, 512GB SSD",
+    "sellerID": 1
+  },
+  {
+    "name": "Smartphone",
+    "description": "6.5-inch display, 128GB storage",
+    "sellerID": 1
+  },
+  {
+    "name": "Headphones",
+    "description": "Noise-canceling, wireless",
+    "sellerID": 1
+  },
+  {
+    "name": "Camera",
+    "description": "24MP, mirrorless",
+    "sellerID": 1
+  },
+  {
+    "name": "Smartwatch",
+    "description": "1.4-inch display, GPS, waterproof",
+    "sellerID": 1
+  }
+]

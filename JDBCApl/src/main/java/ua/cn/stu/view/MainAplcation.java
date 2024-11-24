@@ -29,7 +29,7 @@ public class MainAplcation extends JFrame {
         mainPanel.add(productPanel);
         mainPanel.add(sellerPanel);
         JButton swapButton = new JButton("Swap Panels");
-        swapButton.addActionListener( e -> {swapControler.next(mainPanel);});
+        swapButton.addActionListener( e -> swapControler.next(mainPanel));
         add(mainPanel, BorderLayout.CENTER);
         add(swapButton, BorderLayout.SOUTH);
         pack();
